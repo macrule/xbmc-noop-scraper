@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scraper framework="1.1" date="2013-03-05">
+	<NfoUrl dest="3">
+		<RegExp input="$$1" output="" dest="3">
+			<expression></expression>
+		</RegExp>
+	</NfoUrl>
+	<EpisodeGuideUrl dest="3">
+		<RegExp input="$$1" output="" dest="3">
+			<expression></expression>
+		</RegExp>
+	</EpisodeGuideUrl>
+	<CreateSearchUrl dest="3">
+		<RegExp input="$$1" output="" dest="3">
+			<expression></expression>
+		</RegExp>
+	</CreateSearchUrl>
+	<GetSearchResults dest="1">
+		<RegExp input="$$4" output="" dest="1">
+			<expression></expression>
+		</RegExp>
+	</GetSearchResults>
+	<GetDetails dest="7">
+		<RegExp input="$$4" output="" dest="7">
+			<expression></expression>
+		</RegExp>
+	</GetDetails>
+	<GetEpisodeList dest="3">
+		<RegExp input="$$4" output="" dest="3">
+			<expression></expression>
+		</RegExp>
+	</GetEpisodeList>
+	<GetEpisodeDetails dest="3">
+		<RegExp input="$$4" output="" dest="3">
+			<expression></expression>
+		</RegExp>
+	</GetEpisodeDetails>
+</scraper>
